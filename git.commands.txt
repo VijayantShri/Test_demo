@@ -4,3 +4,8 @@ Get the branches present: git branch
 Create new branch: git checkout -b "<branch_name>"
 Switching already created branch: git checkout <branch_name>
 Taking updated code from repository: git pull origin <branch_name>
+Stage the changes made: git add .   (for all changes)/ git command <file name one by one>
+Commiting the stag changes: git commit -m "<any-message>"
+Pushing the code to repository: git push origin <branch_name>
+Create the PR(pull request) using github portal.
+Delete branch after PR is merged: git branch origin -D <branch_name>
