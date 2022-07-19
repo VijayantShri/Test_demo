@@ -1,0 +1,6 @@
+Cloning a repo: git clone repository link
+Checking status of branch: git status
+Get the branches present: git branch
+Create new branch: git checkout -b "<branch_name>"
+Switching already created branch: git checkout <branch_name>
+Taking updated code from repository: git pull origin <branch_name>
